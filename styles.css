@@ -5,6 +5,13 @@ a{
     color: aliceblue;
     text-decoration: none;
     padding: 0rem 1rem ;
+    font-size: 1.5rem;
+}
+h1{
+   font-size: 2.5rem; 
+}
+p{
+    font-size: 1.5rem;
 }
 
 nav {
@@ -22,6 +29,20 @@ form{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+}
+
+.bx-search-alt-2{
+    border: solid rgb(41, 202, 189);
+    border: 2rem 4px;
+    background-color: #00c0cd;
+    padding: 0px 6px;
+}
+
+.bxl-telegram{
+    border: solid rgb(41, 202, 189);
+    border: 2rem 4px;
+    background-color: #00c0cd;
+    padding: 0px 16px;
 }
 .footer {
     display: flex;
@@ -66,9 +87,34 @@ form{
 .vet {
     padding-left: 32px;
 }
-
-
-
+.contact-btn{
+    color:aliceblue;
+    background-color: #00c0cd;
+    border: 1;
+    border-radius: 5px;
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+}
+.contact-btn:hover{
+    background-color: aliceblue;
+    color: #00c0cd;
+}
+.service-btn{
+    color:aliceblue;
+    border: 1;
+    border-radius: 5px;
+    background-color:rgb(254 174 25) ;
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+}
+.service-btn:hover{
+    background-color: white;
+    color: rgb(254 174 25);
+}
+.icons{
+    display:flex;
+    justify-content: space-evenly
+}
 
 
 
@@ -134,7 +180,6 @@ form{
 
 .w3-card-4 {
    
-    padding: 0rem 8rem;
     text-align: center;
     background-color: white;
 }
