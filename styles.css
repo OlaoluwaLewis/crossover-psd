@@ -179,6 +179,13 @@ form {
     padding: 6rem 0rem;
 }
 
+.video-mirrored-section {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 6rem 0rem;
+}
+
 .video-content-container {
     display: flex;
     flex-wrap: wrap;
@@ -194,26 +201,29 @@ form {
     font-size: 2rem;
 }
 
-.video-img-container {
+.video-img-container,
+.video-mirrored-img-container {
     width: 35rem;
     height: 35rem;
     position: relative;
     margin-bottom: 8rem;
 }
 
-.video-img-container .video-img {
+.video-img-container .video-img,
+.video-mirrored-img-container .video-img {
     width: 100%;
     height: 100%;
     object-fit: fit;
 }
 
-.video-img-container .play-button-img {
+.play-button-img {
     position: absolute;
     top: 45%;
     left: 45%;
 }
 
-.video-img-container::before {
+.video-img-container::before,
+.video-mirrored-img-container::before {
     content: '';
     position: absolute;
     top: 0;
@@ -223,7 +233,8 @@ form {
     background: rgba(254, 174, 25, 0.6)
 }
 
-.video-img-container::after {
+.video-img-container::after,
+.video-mirrored-img-container::after {
     content: '';
     position: absolute;
     z-index: -10;
@@ -234,7 +245,12 @@ form {
     background: rgba(254, 174, 25)
 }
 
-
+.video-mirrored-img-container::after {
+    position: absolute;
+    z-index: -10;
+    top: 70%;
+    left: 70%;
+}
 
 .btn-yellow {
     font-size: 1.5rem;
@@ -253,7 +269,7 @@ form {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    background-color: rgb(211, 152, 26);
+    background-color: rgb(243, 170, 34);
     width: 100%;
     height: 60vh;
 }
