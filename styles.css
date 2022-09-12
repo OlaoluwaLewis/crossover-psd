@@ -82,7 +82,7 @@ form {
     font-size: inherit;
 }
 
-.rol-section    {
+.rol-section {
     background-color: #ffc500;
     text-align: center;
     padding: 80px 140px;
@@ -91,7 +91,7 @@ form {
     font-size: 32px;
 }
 
-.rol-section > h4 {
+.rol-section>h4 {
     font-size: 2.4em;
     line-height: 2em;
     font-size: bold;
@@ -113,12 +113,17 @@ form {
     font-size: bold;
     margin-top: 40px;
 }
-.rol-card > h5 + p  {
+
+.rol-card>h5+p {
     line-height: 32px;
     font-size: 0.8em;
 }
-.rol-card > img { width: 100%; }
-.rol-card > button {
+
+.rol-card>img {
+    width: 100%;
+}
+
+.rol-card>button {
     line-height: 60px;
     background: #00c0cd;
     font-weight: bold;
@@ -128,12 +133,14 @@ form {
     color: inherit;
     font-size: 0.8em;
 }
-.rol-price { 
-    line-height: 100px; 
+
+.rol-price {
+    line-height: 100px;
     font-size: 1.3em;
     font-weight: bold;
 }
-.rol-price > del {
+
+.rol-price>del {
     display: inline-block;
     padding: 0 20px 0 0;
 }
@@ -165,14 +172,16 @@ form {
 }
 
 
-.w3-footer img{
+.w3-footer img {
     background-color: rgb(243, 170, 34);
 }
+
 .recentposts {
-   display: flex;
-   flex-direction: column;
+    display: flex;
+    flex-direction: column;
     align-items: center;
     font-size: 30px;
+}
 
 .recentposts {
     float: center;
@@ -211,18 +220,21 @@ form {
     padding: 6rem 0rem;
 }
 
-.video-content-container {
+.video-content-container,
+.video-mirrored-content-container {
     display: flex;
     flex-wrap: wrap;
     width: 30rem;
     margin-bottom: 8rem;
 }
 
-.video-content-container h2 {
+.video-content-container h2,
+.video-mirrored-content-container h2 {
     font-size: 3rem;
 }
 
-.video-content-container p {
+.video-content-container p,
+.video-mirrored-content-container p {
     font-size: 2rem;
 }
 
