@@ -168,7 +168,6 @@ form {
     padding: 0 10px
 }
 
-
 .w3-card-4 {
 
     padding: 0rem 8rem;
@@ -176,31 +175,14 @@ form {
     background-color: white;
 }
 
-
-.w3-footer img{
-    background-color: rgb(243, 170, 34);
-}
-.recentposts {
-   display: flex;
-   flex-direction: column;
-    align-items: center;
-    font-size: 30px;
-
 .recentposts {
     float: center;
 
-
 }
-
-
 
 .posts {
 
     display: flex;
-
-    font-size: 20px;
-
-
 
 }
 
