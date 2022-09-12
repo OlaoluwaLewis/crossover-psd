@@ -1,44 +1,124 @@
-nav{
+nav {
     display: flex;
     justify-content: space-between;
     background-color: rgb(254 174 25);
-    }
-    
-    h1{
-        padding-top: 16px;
-      
-    }
-    
-    .footer{
-        display: flex;
-        justify-content: space-evenly;
-        background-color: black;
-       
-    }
-    .footer a{
-        color: whitesmoke;
-        text-decoration: none;
-    }
-    .services {
-        display: flex;
-        flex-direction: column;
-        color: whitesmoke;
-    }
-    
-    .about{
-        display: flex;
-        flex-direction: column;
-        color: whitesmoke;
-    }
-    .contact{
-        color: whitesmoke;
-    }
-    
-.hero{
+}
+
+h1 {
+    padding-top: 16px;
+
+}
+
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+
+}
+
+.footer a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.services {
+    display: flex;
+    flex-direction: column;
+    color: whitesmoke;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    color: whitesmoke;
+}
+
+.contact {
+    color: whitesmoke;
+}
+
+.hero {
     display: flex;
     align-items: center;
     background-color: rgb(243, 170, 34);
-}    
-.vet{
+}
+
+.vet {
     padding-left: 32px;
 }
+
+/* ----------------- video section -------------*/
+.video-section {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 6rem 0rem;
+}
+
+.video-content-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 30rem;
+    margin-bottom: 8rem;
+}
+
+.video-content-container h2 {
+    font-size: 3rem;
+}
+
+.video-content-container p {
+    font-size: 2rem;
+}
+
+.video-img-container {
+    width: 35rem;
+    height: 35rem;
+    position: relative;
+    margin-bottom: 8rem;
+}
+
+.video-img-container .video-img {
+    width: 100%;
+    height: 100%;
+    object-fit: fit;
+}
+
+.video-img-container .play-button-img {
+    position: absolute;
+    top: 45%;
+    left: 45%;
+}
+
+.video-img-container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(254, 174, 25, 0.6)
+}
+
+.video-img-container::after {
+    content: '';
+    position: absolute;
+    z-index: -10;
+    top: 70%;
+    right: 70%;
+    width: 40%;
+    height: 40%;
+    background: rgba(254, 174, 25)
+}
+
+
+
+.btn-yellow {
+    font-size: 1.5rem;
+    color: white;
+    background-color: rgb(254 174 25);
+    border: none;
+    border-radius: 5px;
+    padding: 1rem 2rem
+}
+
+/* ----------------- endof video section -------------*/
