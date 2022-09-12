@@ -35,6 +35,7 @@ form {
 }
 
 
+
 .bx-search-alt-2{
     border: solid rgb(41, 202, 189);
     border: 2rem 4px;
@@ -130,13 +131,13 @@ form {
     padding: 0px 6px;
 }
 
+
 .bxl-telegram{
     border: solid rgb(41, 202, 189);
     border: 2rem 4px;
     background-color: #00c0cd;
     padding: 0px 16px;
 }
-
 
 
 
@@ -148,6 +149,7 @@ form {
     font-size: inherit;
 }
 
+
 .rol-section    {
     background-color: #ffc500;
     text-align: center;
@@ -157,7 +159,9 @@ form {
     font-size: 32px;
 }
 
-.rol-section > h4 {
+
+.rol-section>h4 {
+
     font-size: 2.4em;
     line-height: 2em;
     font-size: bold;
@@ -179,12 +183,18 @@ form {
     font-size: bold;
     margin-top: 40px;
 }
+
 .rol-card > h5 + p  {
     line-height: 32px;
     font-size: 0.8em;
 }
 .rol-card > img { width: 100%; }
-.rol-card > button {
+.rol-card>img {
+    width: 100%;
+}
+
+.rol-card>button {
+
     line-height: 60px;
     background: #00c0cd;
     font-weight: bold;
@@ -193,6 +203,7 @@ form {
     width: 200px;
     color: inherit;
     font-size: 0.8em;
+
 }
 .rol-price { 
     line-height: 100px; 
@@ -203,12 +214,6 @@ form {
     display: inline-block;
     padding: 0 20px 0 0;
 }
-
-.rol-price {
-    line-height: 100px;
-}
-
-
 
 .management {
     margin: 0 -5px;
@@ -228,8 +233,19 @@ form {
     background-color: white;
 }
 
+
+
+
+
+.w3-footer img {
+    background-color: rgb(243, 170, 34);
+}
+
 .recentposts {
-    float: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 30px;
 
 }
 
@@ -258,18 +274,22 @@ form {
     padding: 6rem 0rem;
 }
 
-.video-content-container {
+
+.video-content-container,
+.video-mirrored-content-container {
     display: flex;
     flex-wrap: wrap;
     width: 30rem;
     margin-bottom: 8rem;
 }
 
-.video-content-container h2 {
+.video-content-container h2,
+.video-mirrored-content-container h2 {
     font-size: 3rem;
 }
 
-.video-content-container p {
+.video-content-container p,
+.video-mirrored-content-container p {
     font-size: 2rem;
 }
 
@@ -358,6 +378,7 @@ form {
     flex-direction: column;
     align-items: center;
 }
+
 
 .department-card-text h3 {
     font-size: 2rem;
