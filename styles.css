@@ -70,7 +70,19 @@ form {
     padding-left: 32px;
 }
 
+.bx-search-alt-2{
+    border: solid rgb(41, 202, 189);
+    border: 2rem 4px;
+    background-color: #00c0cd;
+    padding: 0px 6px;
+}
 
+.bxl-telegram{
+    border: solid rgb(41, 202, 189);
+    border: 2rem 4px;
+    background-color: #00c0cd;
+    padding: 0px 16px;
+}
 
 
 
@@ -163,13 +175,13 @@ form {
     padding: 0 10px
 }
 
-
 .w3-card-4 {
 
     padding: 0rem 8rem;
     text-align: center;
     background-color: white;
 }
+
 
 
 .w3-footer img {
@@ -183,21 +195,12 @@ form {
     font-size: 30px;
 }
 
-.recentposts {
-    float: center;
-
-
-}
 
 
 
 .posts {
 
     display: flex;
-
-    font-size: 20px;
-
-
 
 }
 
