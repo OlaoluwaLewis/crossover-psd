@@ -47,6 +47,56 @@ h1 {
     padding-left: 32px;
 }
 
+
+
+
+
+
+.rol-section * {
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+}
+.rol-section    {
+    background-color: rgb(243, 170, 34);
+    text-align: center;
+    padding: 80px 140px;
+    color: #fff;
+    line-height: 40px;
+    font-size: 30px;
+}
+.rol-section > h4 {
+    font-size: 60px;
+    line-height: 2em;
+    font-size: bold;
+}
+.rol-flex   { 
+    display: flex;
+    justify-content: space-between; 
+    margin-top: 80px;
+}
+.rol-card { width: 30%; }
+.rol-card > h5 {
+    font-size: 36px;
+    line-height: 2em;
+    font-size: bold;
+}
+.rol-card > p > del{
+    display: inline-block;
+    padding: 0 10px;
+}
+.rol-card > img { width: 100%; }
+.rol-card > button{
+    line-height: 60px;
+    background: #00c0cd;
+    font-weight: bold;
+    border-radius: 25px;
+    border: 0px none;
+    width: 200px;
+    color: inherit;
+}
+.rol-price { line-height: 100px; }
+
  
 
 .management {
@@ -149,4 +199,5 @@ h1 {
 }
 
 /* ----------------- endof video section -------------*/
+
 
