@@ -42,3 +42,29 @@ nav{
 .vet{
     padding-left: 32px;
 }
+
+
+.management {
+    margin: 0 -5px;
+    
+}
+
+.managers {
+    float: left;
+    width: 25%;
+    padding: 0 10px
+    
+}
+
+.w3-card-4 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+    padding: 16px;
+    text-align: center;
+    background-color: white;
+}
+
+.management:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
