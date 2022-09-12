@@ -5,6 +5,14 @@ body {
 a {
     color: aliceblue;
     text-decoration: none;
+    padding: 0rem 1rem ;
+    font-size: 1.5rem;
+}
+h1{
+   font-size: 2.5rem; 
+}
+p{
+    font-size: 1.5rem;
     padding: 0rem 1rem;
 }
 
@@ -24,6 +32,22 @@ form {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+}
+
+
+
+.bx-search-alt-2{
+    border: solid rgb(41, 202, 189);
+    border: 2rem 4px;
+    background-color: #00c0cd;
+    padding: 0px 6px;
+}
+
+.bxl-telegram{
+    border: solid rgb(41, 202, 189);
+    border: 2rem 4px;
+    background-color: #00c0cd;
+    padding: 0px 16px;
 }
 
 .footer {
@@ -70,12 +94,43 @@ form {
     padding-left: 32px;
 }
 
+.contact-btn{
+    color:aliceblue;
+    background-color: #00c0cd;
+    border: 1;
+    border-radius: 5px;
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+}
+.contact-btn:hover{
+    background-color: aliceblue;
+    color: #00c0cd;
+}
+.service-btn{
+    color:aliceblue;
+    border: 1;
+    border-radius: 5px;
+    background-color:rgb(254 174 25) ;
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+}
+.service-btn:hover{
+    background-color: white;
+    color: rgb(254 174 25);
+}
+.icons{
+    display:flex;
+    justify-content: space-evenly
+}
+
+
 .bx-search-alt-2{
     border: solid rgb(41, 202, 189);
     border: 2rem 4px;
     background-color: #00c0cd;
     padding: 0px 6px;
 }
+
 
 .bxl-telegram{
     border: solid rgb(41, 202, 189);
@@ -94,7 +149,8 @@ form {
     font-size: inherit;
 }
 
-.rol-section {
+
+.rol-section    {
     background-color: #ffc500;
     text-align: center;
     padding: 80px 140px;
@@ -103,7 +159,9 @@ form {
     font-size: 32px;
 }
 
+
 .rol-section>h4 {
+
     font-size: 2.4em;
     line-height: 2em;
     font-size: bold;
@@ -126,16 +184,17 @@ form {
     margin-top: 40px;
 }
 
-.rol-card>h5+p {
+.rol-card > h5 + p  {
     line-height: 32px;
     font-size: 0.8em;
 }
-
+.rol-card > img { width: 100%; }
 .rol-card>img {
     width: 100%;
 }
 
 .rol-card>button {
+
     line-height: 60px;
     background: #00c0cd;
     font-weight: bold;
@@ -144,24 +203,17 @@ form {
     width: 200px;
     color: inherit;
     font-size: 0.8em;
-}
 
-.rol-price {
-    line-height: 100px;
+}
+.rol-price { 
+    line-height: 100px; 
     font-size: 1.3em;
     font-weight: bold;
 }
-
-.rol-price>del {
+.rol-price > del {
     display: inline-block;
     padding: 0 20px 0 0;
 }
-
-.rol-price {
-    line-height: 100px;
-}
-
-
 
 .management {
     margin: 0 -5px;
@@ -176,11 +228,12 @@ form {
 }
 
 .w3-card-4 {
-
     padding: 0rem 8rem;
     text-align: center;
     background-color: white;
 }
+
+
 
 
 
@@ -193,10 +246,8 @@ form {
     flex-direction: column;
     align-items: center;
     font-size: 30px;
+
 }
-
-
-
 
 .posts {
 
@@ -222,6 +273,7 @@ form {
     align-items: center;
     padding: 6rem 0rem;
 }
+
 
 .video-content-container,
 .video-mirrored-content-container {
@@ -326,6 +378,7 @@ form {
     flex-direction: column;
     align-items: center;
 }
+
 
 .department-card-text h3 {
     font-size: 2rem;
