@@ -1,7 +1,8 @@
-body{
+body {
     font-family: Arial, Helvetica, sans-serif;
 }
-a{
+
+a {
     color: aliceblue;
     text-decoration: none;
     padding: 0rem 1rem ;
@@ -12,6 +13,7 @@ h1{
 }
 p{
     font-size: 1.5rem;
+    padding: 0rem 1rem;
 }
 
 nav {
@@ -25,11 +27,13 @@ h1 {
     padding-top: 16px;
 
 }
-form{
+
+form {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 }
+
 
 .bx-search-alt-2{
     border: solid rgb(41, 202, 189);
@@ -44,6 +48,7 @@ form{
     background-color: #00c0cd;
     padding: 0px 16px;
 }
+
 .footer {
     display: flex;
     justify-content: space-evenly;
@@ -79,7 +84,7 @@ form{
     align-items: center;
 }
 
-.links{
+.links {
     display: flex;
     align-items: center;
 }
@@ -87,6 +92,7 @@ form{
 .vet {
     padding-left: 32px;
 }
+
 .contact-btn{
     color:aliceblue;
     background-color: #00c0cd;
@@ -117,42 +123,68 @@ form{
 }
 
 
+.bx-search-alt-2{
+    border: solid rgb(41, 202, 189);
+    border: 2rem 4px;
+    background-color: #00c0cd;
+    padding: 0px 6px;
+}
+
+.bxl-telegram{
+    border: solid rgb(41, 202, 189);
+    border: 2rem 4px;
+    background-color: #00c0cd;
+    padding: 0px 16px;
+}
+
+
+
+
 
 .rol-section * {
     font-family: sans-serif;
     padding: 0;
     margin: 0;
+    font-size: inherit;
 }
+
 .rol-section    {
-    background-color: rgb(243, 170, 34);
+    background-color: #ffc500;
     text-align: center;
     padding: 80px 140px;
     color: #fff;
     line-height: 40px;
-    font-size: 30px;
+    font-size: 32px;
 }
+
 .rol-section > h4 {
-    font-size: 60px;
+    font-size: 2.4em;
     line-height: 2em;
     font-size: bold;
 }
-.rol-flex   { 
+
+.rol-flex {
     display: flex;
-    justify-content: space-between; 
+    justify-content: space-between;
     margin-top: 80px;
 }
-.rol-card { width: 30%; }
-.rol-card > h5 {
+
+.rol-card {
+    width: 30%;
+}
+
+.rol-card>h5 {
     font-size: 36px;
     line-height: 2em;
     font-size: bold;
+    margin-top: 40px;
 }
-.rol-card > p > del{
-    display: inline-block;
-    padding: 0 10px;
+.rol-card > h5 + p  {
+    line-height: 32px;
+    font-size: 0.8em;
 }
 .rol-card > img { width: 100%; }
-.rol-card > button{
+.rol-card > button {
     line-height: 60px;
     background: #00c0cd;
     font-weight: bold;
@@ -160,14 +192,27 @@ form{
     border: 0px none;
     width: 200px;
     color: inherit;
+    font-size: 0.8em;
 }
-.rol-price { line-height: 100px; }
+.rol-price { 
+    line-height: 100px; 
+    font-size: 1.3em;
+    font-weight: bold;
+}
+.rol-price > del {
+    display: inline-block;
+    padding: 0 20px 0 0;
+}
 
- 
+.rol-price {
+    line-height: 100px;
+}
+
+
 
 .management {
     margin: 0 -5px;
-    
+
 }
 
 .managers {
@@ -175,30 +220,38 @@ form{
     justify-content: space-between;
     width: 25%;
     padding: 0 10px
-    
 }
 
 .w3-card-4 {
-   
+    padding: 0rem 8rem;
     text-align: center;
     background-color: white;
 }
+
 .recentposts {
     float: center;
-    
+
 }
 
 .posts {
-    
+
     display: flex;
-    
+
 }
+
 .posts a {
     text-decoration: none;
 }
-  
+
 /* ----------------- video section -------------*/
 .video-section {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 6rem 0rem;
+}
+
+.video-mirrored-section {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -220,26 +273,29 @@ form{
     font-size: 2rem;
 }
 
-.video-img-container {
+.video-img-container,
+.video-mirrored-img-container {
     width: 35rem;
     height: 35rem;
     position: relative;
     margin-bottom: 8rem;
 }
 
-.video-img-container .video-img {
+.video-img-container .video-img,
+.video-mirrored-img-container .video-img {
     width: 100%;
     height: 100%;
     object-fit: fit;
 }
 
-.video-img-container .play-button-img {
+.play-button-img {
     position: absolute;
     top: 45%;
     left: 45%;
 }
 
-.video-img-container::before {
+.video-img-container::before,
+.video-mirrored-img-container::before {
     content: '';
     position: absolute;
     top: 0;
@@ -249,7 +305,8 @@ form{
     background: rgba(254, 174, 25, 0.6)
 }
 
-.video-img-container::after {
+.video-img-container::after,
+.video-mirrored-img-container::after {
     content: '';
     position: absolute;
     z-index: -10;
@@ -260,7 +317,12 @@ form{
     background: rgba(254, 174, 25)
 }
 
-
+.video-mirrored-img-container::after {
+    position: absolute;
+    z-index: -10;
+    top: 70%;
+    left: 70%;
+}
 
 .btn-yellow {
     font-size: 1.5rem;
@@ -273,4 +335,31 @@ form{
 
 /* ----------------- endof video section -------------*/
 
+/* ----------------- department section -------------*/
 
+.deparment-section {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(243, 170, 34);
+    width: 100%;
+    height: 60vh;
+}
+
+.department-card-icon {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.department-card-text {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.department-card-text h3 {
+    font-size: 2rem;
+    margin: 0;
+}
