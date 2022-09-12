@@ -105,24 +105,32 @@ h1 {
 }
 
 .managers {
-    float: left;
+    display: flex;
+    justify-content: space-between;
     width: 25%;
     padding: 0 10px
     
 }
 
 .w3-card-4 {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
-    padding: 16px;
+   
+    padding: 0rem 8rem;
     text-align: center;
     background-color: white;
 }
+.recentposts {
+    float: center;
+    
+}
 
-.management:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
+.posts {
+    
+    display: flex;
+    
+}
+.posts a {
+    text-decoration: none;
+}
   
 /* ----------------- video section -------------*/
 .video-section {
